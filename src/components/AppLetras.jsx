@@ -14,7 +14,7 @@ const AppLetras = () => {
             {alert ? <Alerta>{alert}</Alerta> :
             letra ? <Letra /> :
             cargando ?  <Spinner />
-            : <p className="text-center">Busca letras de tus artista favoritos</p>}
+            : <p className="text-center">Busca letras de tus artista favoritos, probar api con artista adele y canción hello</p>}
         </main>
       </>
     );
